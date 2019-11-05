@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Yourmovie</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <!--menu-->
+        <div class="nav">
+            <a href="#" class="logo">
+                <image id="home" src="img/1.png">
+            </a>
+            <label for="toggle">&#9776;</label>
+            <input type="checkbox" id="toggle" />
+            <div class="menu">
+                <a href="#" id="first"><span>INICIO</span></a>
+                <a href="#" id="contactanos">CONTACTO</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <!--slider-->
+            <div class="wrap" id="wrap">
+                <div id="arrow-left" class="arrow"></div>
+                <div id="slider">
+                    <div class="slide slide1">
+                        <div class="slide-content">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="slide slide2">
+                        <div class="slide-content">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="slide slide3">
+                        <div class="slide-content">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="slide slide4">
+                        <div class="slide-content">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div id="arrow-right" class="arrow"></div>
+            </div>
+        </section>
+        <!--buscar-->
+        <section id='fondo'>
+            <div class="fondo">
+                <div class="buscar">
+                    <input type="search" placeholder="Buscar Pelicula" id="busqueda"><i id="b1" class='bx bx-search'></i>
+                </div>
+                <div class="text" id="text">
+                    <h3><span>Peliculas</span>recomendadas</h3>
+                </div>
+            </div>
+        </section>
+        <section id="cuadro-busqueda">
+            <div class="cuadro">
+                <div id="mostrar-busqueda"></div>
+            </div>
+        </section>
+        <section id="cuadro-info">
+            <div class="cuadro">
+                <div id="info-peliculas"></div>
+            </div>
+        </section>
+        <section id="contacto" class="hide">
+            <div class="call">
+                <h1>Contacto</h1>
+                <h2>Nombre:</h2>
+                <input type="text" id="name" placeholder="Alex Perez">
+                <h2 class="em">Email:</h2>
+                <input type="text" id="mail" placeholder="email@gmail.com">
+                <textarea name="msm" id="mensaje" cols="30" rows="10" placeholder="Escribe aqui"></textarea>
+                <button id="enviar">Enviar</button>
+            </div>
+        </section>
+    </main>
+    <!--footer-->
+    <footer id="footer">
+        <div class="bloque" id="bloque">
+            <div class="bloque1">
+                <p>¿Más información? Contáctanos<p>Estamos aquí para asistirte. Contáctanos.</p>
+                </p>
+            </div>
+            <div class="bloque1">
+                <input type="submit" class="contacto" id="talking" value="CONTÁCTENOS">
+            </div>
+        </div>
+        <p><i class='bx bxs-hot'></i>Copyright &#169;2019. All Rights Reserved.</p>
+        <i class='bx bxl-instagram'></i>
+        <i class='bx bxl-facebook'></i>
+        <i class='bx bxl-twitter'></i>
+    </footer>
+    <script src="app.js"></script>
+    <script src="data.js"></script>
+    <script src="slider.js"></script>
+</body>
+
+</html>
