@@ -22,7 +22,7 @@ Esta aplicacion contiene peliculas de todo genero. Esta información ayuda a vis
 
   - **`Feedback`**: 
     Cuando terminamos el prototipo de baja fidelidad los testeamos con amigos, nos recomendaron agregar algunos estilos para que la pagina sea mas profesional.
-    Nos recomendaron trabajar con colores que contrastan, tambien poner menos texto en la vista 1(Inicio).  
+    Nos recomendaron trabajar con colores que contrastan, tambien poner menos texto en la vista inicio.  
 
   - Imagen y link del prototipo de alta fidelidad final (mobile y desktop) en 
   Figma.
